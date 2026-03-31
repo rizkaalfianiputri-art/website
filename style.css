@@ -20,11 +20,10 @@ align-items:center;
 /* CONTAINER */
 header, article, div{
 width:100%;
-max-width:500px;
+max-width:650px;
 }
 
 /* NAVBAR */
-
 nav{
 background:white;
 padding:10px 18px;
@@ -49,21 +48,24 @@ padding:4px 10px;
 border-radius:10px;
 }
 
-/* PROFILE CARD */
-
+/* PROFILE CARD (gabung dengan overview) */
 header{
 background:white;
 margin-top:20px;
-padding:20px;
-border-radius:15px;
+padding:30px 25px;
+border-radius:18px;
 box-shadow:0 10px 25px rgba(0,0,0,0.12);
 text-align:center;
 }
 
+/* FOTO */
 header img{
+width:130px;
+height:130px;
+object-fit:cover;
 border-radius:50%;
 border:5px solid #ffe6f0;
-margin-bottom:8px;
+margin-bottom:10px;
 transition:0.3s;
 }
 
@@ -71,18 +73,9 @@ header img:hover{
 transform:scale(1.05);
 }
 
-/* OVERVIEW CARD */
-
-article{
-background:white;
-margin-top:20px;
-padding:20px;
-border-radius:18px;
-box-shadow:0 8px 20px rgba(0,0,0,0.08);
-}
-
+/* TEXT */
 h1{
-font-size:24px;
+font-size:26px;
 color:#ff2f7d;
 }
 
@@ -93,28 +86,47 @@ color:#ff2f7d;
 }
 
 p{
-font-size:14px;
+font-size:15px;
 opacity:0.9;
 }
 
-/* SKILL TABLE CARD */
+/* ROLE */
+.role{
+font-size:14px;
+margin-bottom:10px;
+color:#777;
+}
 
+/* OVERVIEW */
+.overview{
+margin-top:10px;
+font-size:15px;
+line-height:1.6;
+color:#444;
+}
+
+/* SKILL TABLE */
 table{
 width:100%;
 border-collapse:collapse;
-margin-top:15px;
+margin-top:20px;
 font-size:14px;
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
 }
 
 th{
 background:#ff2f7d;
 color:white;
-padding:10px;
+padding:12px;
 }
 
 td{
 padding:15px;
 background:#fff5fa;
+vertical-align:top;
 }
 
 ul{
@@ -122,11 +134,10 @@ list-style:none;
 }
 
 ul li{
-padding:5px 0;
+padding:6px 0;
 }
 
 /* CONTACT FORM */
-
 form{
 background:white;
 margin-top:20px;
@@ -139,7 +150,7 @@ input, textarea{
 width:100%;
 padding:8px;
 border-radius:6px;
-border:1px solid #ffc0cb;
+border:1px solid #ffa2a2;
 margin-top:5px;
 margin-bottom:12px;
 font-size:13px;
@@ -159,29 +170,28 @@ transition:0.3s;
 }
 
 input[type="submit"]:hover{
-background:#e0266f;
+background:#ec9595;
 }
 
 /* VIDEO */
-
 video{
 border-radius:12px;
 margin-top:10px;
+width:100%;
 }
 
 /* FOOTER */
-
 footer{
 margin-top:25px;
 font-size:13px;
 opacity:0.8;
+text-align:center;
 }
 
 /* HR */
-
 hr{
 border:none;
 height:1px;
-background:#ffd1e6;
+background:#ffffff;
 margin:18px 0;
 }
